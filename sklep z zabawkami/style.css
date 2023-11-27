@@ -1,0 +1,329 @@
+.nav{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color{
+    text-decoration: none;
+    color: black;
+}
+.color:hover{
+    color: blueviolet;
+}
+.hero{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("zabawki.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+}
+.hero-h1{
+    margin-top: -40px;
+}
+.main{
+    background-color: lightgrey;
+    height: 1000px;
+}
+.div1{
+    position: relative;
+    height: 900px;
+    background-color: lightgrey;
+    flex-direction: row;
+    display: flex;
+}
+.div2{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 800px;
+    padding: 20px;
+    margin-top: 1%;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 20px;
+}
+.blok1{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 38%;
+}
+.blok2{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 38%;
+
+}
+.blok3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 38%;
+}
+.blok4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 38%;
+}
+.rzeczy{
+    margin-left: 50%;
+    margin-top: 1%;
+    display: flex;
+    width: 80%;
+}
+.kafelki{
+    width: 500%;
+    height: 25%;
+    margin-left: -158%;
+    margin-top: 20%;
+    display: flex;
+    text-decoration: none;
+}
+.kafelka1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    margin-right: 5%;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 20px;
+}
+.kafelka2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 20px;
+}
+.kafelka3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 20px;
+
+}
+.kafelka4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 20px;
+}
+.pop{
+    width: 250%;
+}
+.tekst{
+    text-align: center;
+    width: 80%;
+    margin-top: 5%;
+}
+.cena{
+    text-align: center;
+    margin-top: 20%;
+    font-size: large;
+    color: blueviolet;
+}
+.fifa{
+    margin-left: 5%;
+}
+.dźwig{
+    margin-left: 5%;
+}
+.cena1{
+    margin-top: 12%;
+    text-align: center;
+    font-size: large;
+    color: blueviolet;
+}
+.licencja{
+    background-color: lightgrey;
+    height: 50rem;
+}
+.lice{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.licen{
+    width: 80%;
+    height: 48rem;
+    margin-left: 13.8%;
+    margin-right: 10%;
+    display: flex;
+}
+.licen1{
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.zdjli{
+    width: 53.5%;
+    height: 53.3%;
+}
+.licen2{
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.licen3{
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.licen4{
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.licen5{
+    width: 20%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.zdjli1{
+    width: 53.5%;
+    height: 53.3%;
+}
+.zdjli2{
+    width: 53.5%;
+    height: 53.3%;
+}
+.zdjli3{
+    width: 53.5%;
+    height: 53.3%;
+}
+.zdjli4{
+    width: 53.5%;
+    height: 53.3%;
+
+}
+.zoom{
+    transition: transform 0.3s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+.sklepy{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(47, 161, 165, 0.5), rgba(47, 161, 165, 0.5)), url("banner-6.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.baner{
+    width: 75%;
+    height: 5%;
+
+}
+.baner-con{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mapa{
+    width: 50%;
+}
+.sk{
+    margin-right: -15%;
+    font-size: xx-large;
+}
+.foot{
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+}
+.m{
+    margin-top: 0;
+}
+.nie{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bold{
+    font-weight: bold;
+}
+.fo{
+    width: 70%;
+}
+.mo{
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+    text-align: center;
+}
+.list1{
+    width: 25%;
+}
+.list2{
+    width: 25%;
+}
+.list3{
+    width: 25%;
+}
+.list4{
+    width: 25%;
+}
+li{
+    list-style: none;
+    margin-left: -7%;
+    margin-top: 7%;
+}
+.dec-none{
+    text-decoration: none;
+}
